@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+
+.divider {
+  @apply border-t border-neutrals-300;
+}
+.text-body-1 {
+  @apply text-xl font-poppins tracking-[-1%] font-normal text-neutrals-700;
+}
+.text-body-2-bold {
+  @apply font-poppins  font-medium text-lg text-neutrals-700;
+}
+.text-body-2 {
+  @apply font-poppins  font-normal text-lg text-neutrals-700;
+}
+.text-button-2 {
+  @apply font-dmSans text-sm font-bold leading-4;
+}
+.text-caption {
+  @apply font-poppins font-normal text-sm text-neutrals-700;
+}
+.text-caption-2 {
+  @apply font-poppins font-normal text-xs text-neutrals-400;
+}
+.text-hairline-2 {
+  @apply font-poppins font-bold text-xs leading-3 uppercase text-neutrals-700;
+}
+/* BUTTONS */
+.btn {
+  @apply px-4 py-3 rounded-full;
+}
+.btn-primary {
+  @apply bg-primary-100 text-button-2 text-neutrals-100;
+}
+.btn-outline-secondary {
+  @apply border border-neutrals-300 text-button-2;
+}
+@tailwind utilities;
