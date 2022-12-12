@@ -7,6 +7,6 @@ const urlNotAvatar = "/images/content/avatar-big.jpg";
   <img
     :src="src ? src : urlNotAvatar"
     :alt="name ? name : 'avatar'"
-    class="rounded-full"
+    class="rounded-full block object-cover"
   />
 </template>
